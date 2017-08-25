@@ -1,0 +1,30 @@
+{
+  "name": "oracle-analitics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    
+    "bluebird": "^3.5.0",
+    "fs-extra": "^4.0.1",
+    "oracledb": "^1.13.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^4.0.0",
+    "@types/oracledb": "^1.11.33",
+    "@types/bluebird": "^3.5.8",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.2.1",
+    "jasmine": "^2.7.0",
+    "jasmine-core": "^2.7.0",
+    "typescript": "^2.4.2"
+  }
+}

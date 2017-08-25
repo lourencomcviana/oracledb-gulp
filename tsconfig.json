@@ -1,0 +1,17 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "moduleResolution":"node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": true,
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "bin",
+        "rootDir": "src",
+        "sourceMap":true
+    },
+    "exclude": [ "node_modules", "bin" ] 
+}
