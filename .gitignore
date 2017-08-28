@@ -59,5 +59,9 @@ typings/
 
 .vscode
 sql/
+<<<<<<< HEAD
 bin/
 connection.json
+=======
+bin/
+>>>>>>> 1951acc8832682cb1c9410f1013c50fd186b0802

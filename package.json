@@ -2,13 +2,18 @@
   "name": "oracle-analitics",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "bin/main.js",
+=======
+  "main": "bin/index.js",
+>>>>>>> 1951acc8832682cb1c9410f1013c50fd186b0802
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "bluebird": "^3.5.0",
     "fs-extra": "^4.0.1",
     "oracledb": "^1.13.1",
@@ -19,6 +24,17 @@
     "@types/fs-extra": "^4.0.0",
     "@types/oracledb": "^1.11.33",
     "@types/yargs": "^8.0.2",
+=======
+    
+    "bluebird": "^3.5.0",
+    "fs-extra": "^4.0.1",
+    "oracledb": "^1.13.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^4.0.0",
+    "@types/oracledb": "^1.11.33",
+    "@types/bluebird": "^3.5.8",
+>>>>>>> 1951acc8832682cb1c9410f1013c50fd186b0802
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.2",
     "gulp-rimraf": "^0.2.1",

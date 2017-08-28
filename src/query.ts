@@ -1,5 +1,4 @@
 import Promise = require('bluebird');
-
 import oracledb = require('oracledb');
 import fs = require("fs-extra");
 import path = require("path");
