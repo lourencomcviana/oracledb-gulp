@@ -60,4 +60,3 @@ typings/
 .vscode
 sql/
 bin/
-connection.json
