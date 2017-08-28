@@ -3,7 +3,7 @@ const rimraf = require('gulp-rimraf');
 const ts = require("gulp-typescript");
 const sourcemaps = require('gulp-sourcemaps');
 const jasmine = require('gulp-jasmine');
-const  exec = require('child_process').exec;
+const exec = require('child_process').exec;
 const argv = require('yargs').argv;
 
 const nodeConfig = require('./package.json');
@@ -40,7 +40,9 @@ gulp.task("test",["compile"], function () {
 
 //run
 gulp.task("default",["test"], function () {
-    
+    //default:
+    if(!argv.path)argv.path="query \"select * from dual\"";
+
     exec('node '+nodeConfig.main+' '+argv.path,function(error,out,errdetail){
         if(error)console.log(error);
         if(out)console.log(out);
